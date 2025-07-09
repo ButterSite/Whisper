@@ -61,11 +61,11 @@ PORT=3000
 Install both backend and frontend dependencies:
 
 ```bash
-# Install backend dependencies
+
 npm install
 
-# (If frontend is in a separate folder, e.g. client/)
-cd client
+
+cd front-end
 npm install
 ```
 
@@ -82,7 +82,7 @@ npm start
 If using a separate React frontend:
 
 ```bash
-cd client
+cd front-end
 npm start
 ```
 

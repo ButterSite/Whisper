@@ -1,0 +1,30 @@
+@keyframes showUp {
+    from {
+        opacity: 0;
+        visibility: hidden;
+    } to {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body {
+    background: linear-gradient(135deg, #4B0082 0%, #1E3A8A 100%);
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-style: normal;
+}
+
+section {
+    z-index: 1;
+    margin-top: 5%;
+}
+
